@@ -6,7 +6,7 @@ a:+/{.[a;i x;:;1]}'!#i /this is a crude method, will improve this so I don't hav
 /=====================================================================================================
 / 1 liner for the same
 t:[[]col1:`c1`c2`c1`c1`c2`c1;col2:`t1`t2`t3`t1`t3`t1;col3:`a`b`c`a`a`b]
-`i',/'+{k:t c x;+(k=/:?k)}'!#c:(. +t)0 / generate one-hot without needing array a separately
+`i',/'+{k:t c x;+(k=/:?k)}'!#c:!t / generate one-hot without needing array a separately
  
 
 
